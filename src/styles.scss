@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 @import '~primeflex/primeflex.css';
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/bootstrap4-light-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -42,4 +45,9 @@ a {
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.container {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
