@@ -1,0 +1,36 @@
+@import '../../../styles/colors';
+
+:host ::ng-deep {
+  .p-tabview-nav {
+    justify-content: center;
+
+    li .p-tabview-nav-link {
+      background: $bgColor;
+    }
+
+    li.p-highlight .p-tabview-nav-link {
+      background: $bgColor;
+    }
+  }
+}
+
+.poster {
+  max-width: 100%;
+}
+
+.overview {
+  line-height: 1.5;
+}
+
+.stat {
+  display: flex;
+
+  .label {
+    width: 150px;
+    font-weight: bold;
+  }
+
+  .value {
+    color: #ffd54f;
+  }
+}
